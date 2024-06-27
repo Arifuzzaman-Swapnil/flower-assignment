@@ -1,0 +1,233 @@
+body, html {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+nav{
+    display: flex;
+}
+.banner{
+    padding:30px 30px 30px 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px;
+}
+.header-class{
+    background-color: #fed5de;
+    font-size: 288;
+    
+}
+.banner-title{
+    font-size: 60px;
+    font-weight: 708;
+    margin: 80px 0px 0px 80px;
+    padding-top: 40px;
+}
+.banner-details{
+    font-size: 90;
+    margin-bottom: 20;
+    margin: 30px 0px 0px 80px;
+    color: rgb(98, 98, 98);
+}
+#btn{
+    margin: 80px 0px 30px 80px;
+}
+.banner-content{
+    max-width: 500px;
+}
+.featured{
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+.section-title{
+    margin: 80px 0px 0px 0px;
+}
+.section-details{
+    font-size: 16px;
+    font-weight: 0px;
+    color: rgb(98, 98, 98);
+}
+.container {
+    display: flex;
+    gap: 24px;  
+}
+.featured {
+    text-align: center;
+    width: 100%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 200px 200px 0px 0px;
+}
+#pic1{
+    background-color: #f9c5d0;
+}
+#pic2{
+    background-color: #e8f9c4;
+}
+#pic3{
+    background-color: #ff87a1;
+}
+.features img {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+.features-title {
+    margin-top: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+.services {
+    display: flex;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin: 0 auto;
+    gap: 100px;
+    background-color: rgb(222, 220, 220);
+    padding: 50px 50px 0px 50px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.service-pic {
+    max-width: 70px;
+    height: auto;
+}
+
+.sub-banner{
+    padding:30px 30px 30px 70px;
+    margin: 150px 0px 0px 0px;
+    background-color: #fed5de;
+    align-items: center;
+}
+.sub-banner-div{
+    padding:30px 30px 30px 70px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.sub-banner-title{
+    font-size: 40px;
+    font-weight: 708;
+    margin: 80px 0px 0px 80px;
+    padding-top: 40px;
+}
+.sub-banner-details{
+    font-size: 90;
+    margin-bottom: 20;
+    margin: 30px 0px 0px 80px;
+    color: rgb(98, 98, 98);
+}
+#btn1{
+    margin: 80px 0px 30px 80px;
+    border-radius: 10px 10px 10px 10px;
+}
+.sub-banner-pic
+{
+    align-items: center;
+    margin: 0px 200px 00px 0px;
+}
+
+.s-pic {
+    max-width: 300px;
+    position: relative;
+}
+.s-featured {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.s-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.background-section {
+    background-image: url('Rectangle 9.png');
+    max-width: 1230px;
+    max-height: fit-content;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.back-content {
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textbox {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 20px;
+    padding: 15px;
+}
+.footer-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+    margin-top: 50px;
+}
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.footer-headline {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.footer-headline .diff-clr {
+    color: #E55473;
+}
+.footer-description {
+    font-size: 16px;
+    font-weight: 0px;
+    color: rgb(233, 225, 225);
+}
+.footer-rights {
+    font-size: 1em;
+    margin-top: 20px;
+}
